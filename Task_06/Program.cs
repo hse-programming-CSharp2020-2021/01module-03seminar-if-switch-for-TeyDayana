@@ -22,21 +22,37 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO.IsolatedStorage;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Task_06 {
 	class Program {
 
-		static void Main(string[] args) {
-			int answer = 0;
+		static void Main(string[] args) 
+		{
+			int answer;
+			List<int> numbers = GetNumbers();
+			List<int> mins = new List<int>();
 
-			foreach (int level in GetNumbers()) {
-				// TODO : Обработать информацию об очередном этаже. Он лежит в переменной level.
+			int min = 100, number;
+			for (int aud = 0; aud < numbers.Count(); ++aud)
+            {
+				number = numbers[aud] - numbers[aud] / 100 * 100;
+				if (number < min) min = number;
 			}
 
-			// TODO : Вывести получееный этаж.
+			for (int aud = 0; aud < numbers.Count(); ++aud)
+            {
+				number = numbers[aud] - numbers[aud] / 100 * 100;
+				if (number == min) mins.Add(numbers[aud]);
+			}
+
+			int minLev = 10;
+			for (int aud = 0; aud < mins.Count(); ++aud)
+				if (mins[aud] / 100 < minLev) 
+					minLev = mins[aud] / 100;
+
+            Console.WriteLine(minLev*100+min);
 		}
 
 		public static List<int> GetNumbers() {
