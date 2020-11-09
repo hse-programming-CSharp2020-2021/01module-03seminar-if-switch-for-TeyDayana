@@ -1,0 +1,304 @@
+{
+  "tests": [
+    {
+      "name": "Task_01-Test_01",
+      "setup": "csc Task_01/Program.cs",
+      "run": "mono Program.exe",
+      "input": "555",
+      "output": "1111",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_01-Test_02",
+      "setup": "csc Task_01/Program.cs",
+      "run": "mono Program.exe",
+      "input": "300",
+      "output": "0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_01-Test_03",
+      "setup": "csc Task_01/Program.cs",
+      "run": "mono Program.exe",
+      "input": "66",
+      "output": "6666",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_01-Test_04",
+      "setup": "csc Task_01/Program.cs",
+      "run": "mono Program.exe",
+      "input": "71",
+      "output": "7777",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_01-Test_05",
+      "setup": "csc Task_01/Program.cs",
+      "run": "mono Program.exe",
+      "input": "76",
+      "output": "2222",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_02-Test_01",
+      "setup": "csc Task_02/Program.cs",
+      "run": "mono Program.exe",
+      "input": "1024",
+      "output": "4210",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_02-Test_02",
+      "setup": "csc Task_02/Program.cs",
+      "run": "mono Program.exe",
+      "input": "120",
+      "output": "21",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_02-Test_03",
+      "setup": "csc Task_02/Program.cs",
+      "run": "mono Program.exe",
+      "input": "79786",
+      "output": "68797",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_02-Test_04",
+      "setup": "csc Task_02/Program.cs",
+      "run": "mono Program.exe",
+      "input": "3378",
+      "output": "8733",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_02-Test_05",
+      "setup": "csc Task_02/Program.cs",
+      "run": "mono Program.exe",
+      "input": "5379",
+      "output": "9735",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_03-Test_01",
+      "setup": "csc Task_03/Program.cs",
+      "run": "mono Program.exe",
+      "input": "2\r\n0",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_03-Test_02",
+      "setup": "csc Task_03/Program.cs",
+      "run": "mono Program.exe",
+      "input": "1\r\n2",
+      "output": "False",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_03-Test_03",
+      "setup": "csc Task_03/Program.cs",
+      "run": "mono Program.exe",
+      "input": "1\r\n-1",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_03-Test_04",
+      "setup": "csc Task_03/Program.cs",
+      "run": "mono Program.exe",
+      "input": "0\r\n0",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_03-Test_05",
+      "setup": "csc Task_03/Program.cs",
+      "run": "mono Program.exe",
+      "input": "10\r\n15",
+      "output": "False",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_04-Test_01",
+      "setup": "csc Task_04/Program.cs",
+      "run": "mono Program.exe",
+      "input": "38,14\r\n13,61",
+      "output": "259,54",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_04-Test_02",
+      "setup": "csc Task_04/Program.cs",
+      "run": "mono Program.exe",
+      "input": "22,75\r\n78,01",
+      "output": "22,24",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_04-Test_03",
+      "setup": "csc Task_04/Program.cs",
+      "run": "mono Program.exe",
+      "input": "99,74\r\n86,86",
+      "output": "4331,71",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_04-Test_04",
+      "setup": "csc Task_04/Program.cs",
+      "run": "mono Program.exe",
+      "input": "-2\r\n-3",
+      "output": "-5,58",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_04-Test_05",
+      "setup": "csc Task_04/Program.cs",
+      "run": "mono Program.exe",
+      "input": "1,06\r\n97,26",
+      "output": "0,93",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_05-Test_01",
+      "setup": "csc Task_05/Program.cs",
+      "run": "mono Program.exe",
+      "input": "87,09",
+      "output": "-0,14",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_05-Test_02",
+      "setup": "csc Task_05/Program.cs",
+      "run": "mono Program.exe",
+      "input": "-78,24",
+      "output": "1,00",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_05-Test_03",
+      "setup": "csc Task_05/Program.cs",
+      "run": "mono Program.exe",
+      "input": "98,57",
+      "output": "0,63",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_05-Test_04",
+      "setup": "csc Task_05/Program.cs",
+      "run": "mono Program.exe",
+      "input": "-24,94",
+      "output": "1,00",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_05-Test_05",
+      "setup": "csc Task_05/Program.cs",
+      "run": "mono Program.exe",
+      "input": "50,88",
+      "output": "0,19",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_06-Test_01",
+      "setup": "csc Task_06/Program.cs",
+      "run": "mono Program.exe",
+      "input": "611 202 204 508 813",
+      "output": "202",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_06-Test_02",
+      "setup": "csc Task_06/Program.cs",
+      "run": "mono Program.exe",
+      "input": "307 507 707 907 807 107",
+      "output": "107",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_06-Test_03",
+      "setup": "csc Task_06/Program.cs",
+      "run": "mono Program.exe",
+      "input": "492 939 325 797 998 997 150 752 824 886 836 496 764 691",
+      "output": "824",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_06-Test_04",
+      "setup": "csc Task_06/Program.cs",
+      "run": "mono Program.exe",
+      "input": "556 546 720 702 170 886 489 231 393 771 437 675 962 285",
+      "output": "702",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task_06-Test_05",
+      "setup": "csc Task_06/Program.cs",
+      "run": "mono Program.exe",
+      "input": "220 205 690 596 378 491 834 787 105 283",
+      "output": "105",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
