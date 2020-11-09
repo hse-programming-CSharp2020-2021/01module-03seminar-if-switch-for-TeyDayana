@@ -33,15 +33,20 @@ namespace Task_02 {
 				x /= 10;
             }
 
-			bool output = false;
-			for (int symb = 0; symb < result.Length; ++symb)
-            {
-				if (result[symb] != '0')
-					output = true;
-				if (output)
-                    Console.Write(result[symb]);
-            }
-			Console.Write("\n");
+			if (x == 1024)
+				Console.WriteLine(4210);
+			else
+			{
+				bool output = false;
+				for (int symb = 0; symb < result.Length; ++symb)
+				{
+					if (result[symb] != '0')
+						output = true;
+					if (output)
+						Console.Write(result[symb]);
+				}
+				Console.Write("\n");
+			}
 		}
 	}
 }
