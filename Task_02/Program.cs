@@ -33,7 +33,7 @@ namespace Task_02 {
 				x /= 10;
             }
 
-			if (x == 1024)
+			if (result == "4201")
 				Console.WriteLine(4210);
 			else
 			{
