@@ -1,0 +1,7 @@
+C:\Users\dayan\source\repos\01module-03seminar-if-switch-for-TeyDayana\Task_06\Task_05\bin\Debug\Task_05.exe.config
+C:\Users\dayan\source\repos\01module-03seminar-if-switch-for-TeyDayana\Task_06\Task_05\bin\Debug\Task_05.exe
+C:\Users\dayan\source\repos\01module-03seminar-if-switch-for-TeyDayana\Task_06\Task_05\bin\Debug\Task_05.pdb
+C:\Users\dayan\source\repos\01module-03seminar-if-switch-for-TeyDayana\Task_06\Task_05\obj\Debug\Task_05.csprojAssemblyReference.cache
+C:\Users\dayan\source\repos\01module-03seminar-if-switch-for-TeyDayana\Task_06\Task_05\obj\Debug\Task_05.csproj.CoreCompileInputs.cache
+C:\Users\dayan\source\repos\01module-03seminar-if-switch-for-TeyDayana\Task_06\Task_05\obj\Debug\Task_05.exe
+C:\Users\dayan\source\repos\01module-03seminar-if-switch-for-TeyDayana\Task_06\Task_05\obj\Debug\Task_05.pdb
